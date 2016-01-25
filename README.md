@@ -4,7 +4,7 @@ Testing how git stores weird file types
 1. Windows Junction Points NO--see below
 2. Windows Symlinks NO--see below
 
-C:\Repos\GitTest>mkdir TargetLocation
+```C:\Repos\GitTest>mkdir TargetLocation
 
 C:\Repos\GitTest>mklink /J Junction TargetLocation
 Junction created for Junction <<===>> TargetLocation
@@ -43,4 +43,4 @@ nothing added to commit but untracked files present (use "git add" to track)
 C:\Repos\GitTest>git add *
 error: readlink("Symlink"): Function not implemented
 error: unable to index file Symlink
-fatal: adding files failed
+fatal: adding files failed```
